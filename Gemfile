@@ -37,7 +37,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'rspec'
-  gem 'spinach'
+  gem 'spinach-rails'
   gem 'launchy'
   gem 'capybara'
 end
