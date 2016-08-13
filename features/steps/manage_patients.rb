@@ -4,10 +4,10 @@ class Spinach::Features::ManagePatients < Spinach::FeatureSteps
   end
 
   step 'I should see "New Patient"' do
-    pending 'step not implemented'
+    expect(page).to have_content("New Patient")
   end
 
   step 'I click on "New Patient"' do
-    pending 'step not implemented'
+    click_button("New Patient")
   end
 end
